@@ -1,0 +1,39 @@
+header {
+  background-color: white;
+  box-shadow: 0 0 15px gray;
+  position: sticky;
+
+  top: 0;
+  width: 100%;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header ul a {
+  padding: 15px;
+  display: inline-block;
+  color: red;
+}
+body {
+  margin: 0;
+}
+tr:first-child {
+  font-weight: bold;
+  background-color: rgb(177, 210, 211);
+  color: red;
+  position: sticky;
+  top: 50px
+}
+.red {
+  color: white;
+  background-color: tomato;
+  border-radius: 55px;
+  width: 100%;
+  padding: 10px;
+  position: sticky;
+  bottom: 10px;
+  left: 20px;
+}
